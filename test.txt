@@ -1,0 +1,27 @@
+Equivalence Partitioning...
+
+Test data	Expected	Actual	Pass/Fail
+________________________________________________________________
+-43	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Pass
+5	N	N	Pass
+51	P	P	Pass
+69	C	C	Pass
+79	D	D	Pass
+87	HD	HD	Pass
+200	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Pass
+
+________________________________________________________________
+Boundary Values Analisis...
+
+-0.01	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Pass
+0	N	N	Pass
+49.99	N	N	Pass
+50	P	P	Pass
+62.99	P	P	Pass
+63	C	C	Pass
+72.99	C	C	Pass
+73	D	D	Pass
+82.99	D	D	Pass
+83	HD	HD	Pass
+100	HD	HD	Pass
+100.01	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Nel shavo, esa no es una calificación válida, que estas haciendo con tu vida?	Pass
